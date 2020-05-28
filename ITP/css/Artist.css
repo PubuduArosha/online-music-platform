@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+
+.Artist-cover{
+    height : 420px;
+    padding: 0px !important;
+    margin: 0px !important;
+    background-position-x: 50%;
+    background-position-y: center;
+   background-size: cover;
+    border-width: 0px !important;
+}
+
+h3{
+    font-size: 1.4em !important;
+  }
+.artist-name-text{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 3.8em;
+    position: absolute;
+      top:60%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center !important;
+    line-height: 1em;
+}
+
+.songs-list{
+    padding: 0px 5%;
+}
+
+.song-row{
+    background: rgba(22, 22, 22 , 0.4);
+    padding: 12px 0px ;
+    margin-top: 5px;
+}
+
+.song-text{
+    margin: auto !important;
+    font-size: 1em;
+    font-weight: 400;
+    color: #b4b4b4;
+   
+}
+
+.about{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1em ;
+    color: #b4b4b4;
+}
+
+@media screen and (max-width: 900px) {
+    .songs-list{
+        padding: 0px 5%;
+    }
+    .song-text{
+        font-size: 1.2em;
+    }
+    
+.artist-name-text{
+   
+    font-size: 3.7em;
+   
+}
+
+  }

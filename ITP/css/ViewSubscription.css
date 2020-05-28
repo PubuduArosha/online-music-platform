@@ -1,0 +1,79 @@
+
+  .titles {
+    font-size: 20px;
+    font-family: "Montserrat" !important;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+  }
+  .detailsBox {
+    background-color: rgba(255, 255, 255, 0.11);
+    max-width: 650px;
+    border-radius: 30px;
+  }
+  .labelDetails {
+    font-size: 18px;
+    font-family: "Montserrat" !important;
+    padding-left: 20px !important;
+    padding-top: 20px;
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .titles {
+      font-size: 15px;
+      font-family: "Montserrat" !important;
+      padding-top: 10px;
+      padding-right: 10px;
+    }
+    .detailsBox {
+      background-color: rgba(255, 255, 255, 0.11);
+      max-width: 650px;
+      border-radius: 30px;
+    }
+    .labelDetails {
+      font-size: 10px;
+      font-family: "Montserrat" !important;
+      padding-left: 20px !important;
+    }
+    .detailsTitle {
+      font-family: "Montserrat" !important;
+      padding: 10%;
+      font-weight: bolder;
+    }
+    .iconDetails {
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .titles {
+      font-size: 15px;
+      font-family: "Montserrat" !important;
+      padding-top: 10px;
+      padding-right: 10px;
+    }
+    .detailsBox {
+      max-width: 650px;
+      border-radius: 30px;
+      background-image: linear-gradient(rgb(63, 63, 63), rgb(0, 0, 0));
+    }
+    .labelDetails {
+      font-size: 10px;
+      font-family: "Montserrat" !important;
+      padding-left: 20px !important;
+    }
+    .detailsTitle {
+      font-size: 18px;
+      font-family: "Montserrat" !important;
+    }
+
+  }
+
+  .DltSubBtn
+  {
+    background-color:rgb(60, 60, 60);
+    border: none;
+  }
+  .btn:hover{
+    background-color: rgb(30, 30, 30);
+  }

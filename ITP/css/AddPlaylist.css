@@ -1,0 +1,137 @@
+/* modal css*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(74, 161, 47); /* Fallback color */
+    background-color: rgba(158, 218, 49, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    /*border: 1px solid #888;*/
+    width: 80% !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(19, 1, 1);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  .modal-body {
+      padding: 2px 16px;
+      background-color: #303030;
+    }
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c ;
+    color: white;
+  }
+  /* modal css*/
+
+  .label-text{
+    font-size: 0.9em !important;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+
+
+.pre{
+    width : 100%;
+    height: auto;
+}
+
+#additemIMG1{
+    padding: 10px 0px 0px 10px !important;
+    width : 90%;
+    margin: auto;
+    
+    
+}
+.custom-file-upload {
+    margin-left: 10px;
+border: 1px solid #ccc;
+display: inline-block;
+font-size: 0.9em !important;
+color: rgb(34, 33, 33);
+font-weight: 600;
+padding: 10px ;
+text-align: center;
+width: 85%;
+background-color: rgba(229, 231, 231, 0.151) !important;
+cursor: pointer;
+}
+input[type="file"] {
+display: none !important;
+}
+
+input[type="text"], textarea {
+  color : white !important;
+  background-color : #3a3939 !important; 
+
+}
+
+#submitbtn{
+margin-top: 5px;
+background-color: #27ae60;
+color: white;
+font-size: 18px;
+}
+
+
+.permission-text{
+    font-size: 0.8em !important;
+    font-weight: bold;
+    color: rgba(84, 85, 85, 0.897);
+    padding-left: 5px;
+}
+
+.permission-text-header{
+    font-size: 0.9em !important;
+    font-weight: bold;
+    color: rgba(70, 71, 71, 0.74);
+   
+    text-align: justify;
+    text-justify: inter-word;
+}
+

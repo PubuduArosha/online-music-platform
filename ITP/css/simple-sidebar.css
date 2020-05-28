@@ -1,0 +1,85 @@
+.header-image-nav{
+  width: 150px;
+  margin-left : 35px;
+  height: auto;
+  padding: 15px 0px;
+}
+.header-user-nav{
+  font-size: 0.9em !important;
+  margin: 0px !important;
+  padding: 10px 8px ;
+  background-color: #1e1f1e93;
+}
+body {
+  overflow-x: hidden;
+}
+
+.type-nav{
+  color : #ffffffd8;
+  font-size: 0.75em !important;
+  margin: 0px !important;
+  padding-left: 10px;
+  line-height : 4px !important;
+  
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  background-color: rgb(0, 0, 0)  !important;
+}
+.sidebar-heading{
+  padding: 0px !important;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 5px 10px;
+ 
+  background-color: rgb(12,12, 12) !important;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+  
+}
+
+
+
+#sidebar-wrapper .list-group-item {
+  background-color: black !important;
+  border-left: solid black 7px ;
+  border-right: 0px ;
+  border-top: 0px ;
+  border-bottom: 0px;
+  padding-left: 20px !important;
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+  
+}
+
+@media (min-width: 1200px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
